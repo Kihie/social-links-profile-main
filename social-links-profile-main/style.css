@@ -1,0 +1,70 @@
+#cor {
+    background-color: black;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cor2 {
+    background-color: rgb(37, 37, 37);
+    border-radius: 20px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#nome {
+    color: papayawhip;
+    text-align: center;
+    font-family: Arial roundead MT Bold;
+    font-size: 40px;
+}
+
+#cidade {
+    color: #edf775;
+    text-align: center;
+    font-family: Arial roundead MT Bold;
+    font-size: 25px;
+}
+
+#cargo {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.imagem {
+    text-align: center;
+    border-radius: 50px;
+}
+
+.btn {
+    background-color: #333; /* Cor de fundo dos botões */
+    color: #f5f5dc; /* Cor do texto nos botões */
+    padding: 15px 15px; /* Espaçamento interno dos botões */
+    text-decoration: none; /* Remove o sublinhado */
+    border-radius: 10px; /* Arredonda os cantos */
+    width: 300px; /* Largura fixa */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 20px; /* Espaçamento entre os botões */
+    font-size: 18px; /* Tamanho da fonte */
+    transition: background-color 0.3s ease, transform 0.3 ease, color: red; /* Efeito ao passar o mouse */
+    font-family: Arial, Helvetica, sans-serif, bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: black;
+    font-style: oblique;
+    background-color: #edf775;;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Botões empilhados verticalmente */
+    align-items: center; /* Centraliza os botões horizontalmente */
+    justify-content: center; /* Centraliza os botões verticalmente */
+}

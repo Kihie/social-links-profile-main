@@ -15,21 +15,21 @@
 }
 
 #nome {
-    color: papayawhip;
+    color: hsl(0, 0%, 100%);
     text-align: center;
     font-family: Arial roundead MT Bold;
     font-size: 40px;
 }
 
 #cidade {
-    color: #edf775;
+    color: hsl(75, 94%, 57%);
     text-align: center;
     font-family: Arial roundead MT Bold;
     font-size: 25px;
 }
 
 #cargo {
-    color: white;
+    color: hsl(0, 0%, 100%);
     text-align: center;
     font-size: 29px;
     padding-bottom: 40px;
@@ -42,7 +42,7 @@
 
 .btn {
     background-color: #333; /* Cor de fundo dos botões */
-    color: #f5f5dc; /* Cor do texto nos botões */
+    color: hsl(0, 0%, 100%); /* Cor do texto nos botões */
     padding: 15px 15px; /* Espaçamento interno dos botões */
     text-decoration: none; /* Remove o sublinhado */
     border-radius: 10px; /* Arredonda os cantos */
@@ -59,12 +59,19 @@
     cursor: pointer;
     color: black;
     font-style: oblique;
-    background-color: #edf775;;
+    background-color: hsl(75, 94%, 57%);
 }
 
 .container {
     display: flex;
-    flex-direction: column; /* Botões empilhados verticalmente */
-    align-items: center; /* Centraliza os botões horizontalmente */
-    justify-content: center; /* Centraliza os botões verticalmente */
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+
+.box {
+    color: hsl(75, 94%, 57%);
+    text-align: center;
+    font-size: 21px;
 }
